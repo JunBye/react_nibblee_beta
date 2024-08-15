@@ -1,0 +1,104 @@
+/* Search.css
+.search-card-wrapper {
+    margin-bottom: 16px;
+}
+  
+  .search-card {
+    display: flex;
+    width: 100%;
+    max-width: 535px;
+    height: 120px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .search-card .image-wrapper {
+    width: 80px;
+    height: 120px;
+    flex-shrink: 0;
+  }
+  
+  .search-card .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .search-card .card-content {
+    width: 435px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+
+
+/* Search.module.css */
+
+.search {
+  /* 필요한 경우 스타일 추가 */
+}
+
+.searchWrapper {
+  /* 필요한 경우 스타일 추가 */
+}
+
+.searchResults {
+  /* 필요한 경우 스타일 추가 */
+}
+
+.searchCardWrapper {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 16px;
+}
+
+.searchCard {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.searchCard .imageWrapper {
+  width: 80px;
+  height: 120px;
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+
+.searchCard .imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.searchCard .cardContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.searchCard .cardContent h4 {
+  font-size: 18px;
+  margin: 0 0 4px 0;
+  font-weight: bold;
+}
+
+.searchCard .cardContent p {
+  font-size: 14px;
+  margin: 0 0 4px 0;
+  color: #666;
+}
+
+.searchCard .cardContent p:last-child {
+  margin-top: auto;
+}
+
+.searchCard .cardContent p span {
+  color: #007bff;
+  margin-right: 4px;
+}

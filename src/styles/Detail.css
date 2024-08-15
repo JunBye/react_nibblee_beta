@@ -1,0 +1,51 @@
+.detail-container {
+    padding: 20px;
+}
+
+.novel-info {
+    margin-bottom: 40px;
+}
+
+.novel-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.section-divider {
+    margin: 40px 0;
+    border: 0;
+    border-top: 2px solid #333; /* 더 진한 색상과 더 두꺼운 선 */
+}
+
+.sections ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sections li {
+    margin-bottom: 10px;
+}
+
+.team-info, .creative-info {
+    margin-bottom: 40px;
+}
+
+.team-info h3, .creative-info h3 {
+    margin-top: 20px;
+}
+
+.Recommend-info h3 {
+    margin-bottom : 40px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .novel-info {
+        text-align: center;
+    }
+
+    .novel-image {
+        margin-bottom: 20px;
+    }
+}

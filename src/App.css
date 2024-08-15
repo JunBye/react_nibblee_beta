@@ -1,0 +1,113 @@
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+
+}
+
+.nibblee-home {
+  flex-grow: 1;
+}
+
+.nibblee-header {
+  position: sticky;
+  top: 0;
+  left: 200px;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nibblee-main {
+  padding: 20px;
+  margin-top: 56px; /* Adjust this value based on your header's height */
+}
+
+.navbar-brand {
+  margin-right: 2rem;
+}
+
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-container-title {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.recently-viewed, .all-items {
+  margin-bottom: 2rem;
+}
+
+/* @media (max-width: 768px) {
+  .nibblee-sidebar {
+    width: 100%;
+    position: static;
+    height: auto;
+  }
+
+  .nibblee-home {
+    margin-left: 0;
+  }
+
+  .nibblee-header {
+    left: 0;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+} */
+
+/* Mobile styles (less than 992px) */
+@media (max-width: 991px) {
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav .dropdown-menu {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* Desktop styles (992px and above) */
+@media (min-width: 992px) {
+  .nibblee-header {
+    left: 200px;
+    right: 0;
+  }
+
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+
+  .navbar-nav .btn {
+    margin-left: 1rem;
+  }
+}
